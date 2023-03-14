@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks (street) {
-    //returns the number of blocks given a value
+    
     if (street<42){
       return(42-street);
     }
@@ -14,8 +14,7 @@ function distanceFromHqInBlocks (street) {
   
   function distanceFromHqInFeet (street) {
     return distanceFromHqInBlocks(street)*264;
-    // calls distanceFromHqInBlocks from inside the distanceFromHqInFeet function, passing the argument from distanceFromHqInFeet into distanceFromHqInBlocks
-    //the return value of distanceFromHqInBlocks can then be used to calculate feet
+   
   }
   
   function distanceTravelledInFeet(a,b){
